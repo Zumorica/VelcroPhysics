@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_VelcroPhysics.975481577.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="VelcroPhysics" t="IncludeRecursive">
+        <e p="BreakableBody.cs" t="Include" />
+        <e p="Collision" t="Include">
+          <e p="AABBHelper.cs" t="Include" />
+          <e p="Broadphase" t="Include">
+            <e p="DynamicTree.cs" t="Include" />
+            <e p="DynamicTreeBroadPhase.cs" t="Include" />
+            <e p="IBroadPhase.cs" t="Include" />
+            <e p="Pair.cs" t="Include" />
+            <e p="TreeNode.cs" t="Include" />
+          </e>
+          <e p="ContactSystem" t="Include">
+            <e p="Contact.cs" t="Include" />
+            <e p="ContactEdge.cs" t="Include" />
+            <e p="ContactFeature.cs" t="Include" />
+            <e p="ContactFeatureType.cs" t="Include" />
+            <e p="ContactFlags.cs" t="Include" />
+            <e p="ContactID.cs" t="Include" />
+            <e p="ContactManager.cs" t="Include" />
+            <e p="ContactType.cs" t="Include" />
+          </e>
+          <e p="Distance" t="Include">
+            <e p="DistanceGJK.cs" t="Include" />
+            <e p="DistanceInput.cs" t="Include" />
+            <e p="DistanceOutput.cs" t="Include" />
+            <e p="DistanceProxy.cs" t="Include" />
+          </e>
+          <e p="Filtering" t="Include">
+            <e p="Category.cs" t="Include" />
+            <e p="Filter.cs" t="Include" />
+          </e>
+          <e p="Handlers" t="Include">
+            <e p="AfterCollisionHandler.cs" t="Include" />
+            <e p="BeforeCollisionHandler.cs" t="Include" />
+            <e p="BeginContactHandler.cs" t="Include" />
+            <e p="BroadphaseHandler.cs" t="Include" />
+            <e p="CollisionFilterHandler.cs" t="Include" />
+            <e p="EndContactHandler.cs" t="Include" />
+            <e p="OnCollisionHandler.cs" t="Include" />
+            <e p="OnSeparationHandler.cs" t="Include" />
+          </e>
+          <e p="Narrowphase" t="Include">
+            <e p="ClipVertex.cs" t="Include" />
+            <e p="CollideCircle.cs" t="Include" />
+            <e p="CollideEdge.cs" t="Include" />
+            <e p="CollidePolygon.cs" t="Include" />
+            <e p="Collision.cs" t="Include" />
+            <e p="EPAxis.cs" t="Include" />
+            <e p="EPAxisType.cs" t="Include" />
+            <e p="EPCollider.cs" t="Include" />
+            <e p="Manifold.cs" t="Include" />
+            <e p="ManifoldPoint.cs" t="Include" />
+            <e p="ManifoldType.cs" t="Include" />
+            <e p="PointState.cs" t="Include" />
+            <e p="ReferenceFace.cs" t="Include" />
+            <e p="Simplex.cs" t="Include" />
+            <e p="SimplexCache.cs" t="Include" />
+            <e p="SimplexVertex.cs" t="Include" />
+            <e p="WorldManifold.cs" t="Include" />
+          </e>
+          <e p="RayCast" t="Include">
+            <e p="RayCastInput.cs" t="Include" />
+            <e p="RayCastOutput.cs" t="Include" />
+          </e>
+          <e p="RayCastHelper.cs" t="Include" />
+          <e p="Shapes" t="Include">
+            <e p="ChainShape.cs" t="Include" />
+            <e p="CircleShape.cs" t="Include" />
+            <e p="EdgeShape.cs" t="Include" />
+            <e p="MassData.cs" t="Include" />
+            <e p="PolygonShape.cs" t="Include" />
+            <e p="Shape.cs" t="Include" />
+            <e p="ShapeType.cs" t="Include" />
+          </e>
+          <e p="TOI" t="Include">
+            <e p="SeparationFunction.cs" t="Include" />
+            <e p="SeparationFunctionType.cs" t="Include" />
+            <e p="Sweep.cs" t="Include" />
+            <e p="TOIInput.cs" t="Include" />
+            <e p="TOIOutput.cs" t="Include" />
+            <e p="TOIOutputState.cs" t="Include" />
+            <e p="TimeOfImpact.cs" t="Include" />
+          </e>
+          <e p="TestPointHelper.cs" t="Include" />
+        </e>
+        <e p="Dynamics" t="Include">
+          <e p="Body.cs" t="Include" />
+          <e p="BodyFlags.cs" t="Include" />
+          <e p="BodyType.cs" t="Include" />
+          <e p="Fixture.cs" t="Include" />
+          <e p="FixtureProxy.cs" t="Include" />
+          <e p="Handlers" t="Include">
+            <e p="BodyHandler.cs" t="Include" />
+            <e p="ControllerHandler.cs" t="Include" />
+            <e p="FixtureHandler.cs" t="Include" />
+            <e p="JointHandler.cs" t="Include" />
+            <e p="PostSolveHandler.cs" t="Include" />
+            <e p="PreSolveHandler.cs" t="Include" />
+          </e>
+          <e p="Joints" t="Include">
+            <e p="AngleJoint.cs" t="Include" />
+            <e p="DistanceJoint.cs" t="Include" />
+            <e p="FixedMouseJoint.cs" t="Include" />
+            <e p="FrictionJoint.cs" t="Include" />
+            <e p="GearJoint.cs" t="Include" />
+            <e p="Joint.cs" t="Include" />
+            <e p="JointEdge.cs" t="Include" />
+            <e p="JointType.cs" t="Include" />
+            <e p="LimitState.cs" t="Include" />
+            <e p="MotorJoint.cs" t="Include" />
+            <e p="PrismaticJoint.cs" t="Include" />
+            <e p="PulleyJoint.cs" t="Include" />
+            <e p="RevoluteJoint.cs" t="Include" />
+            <e p="RopeJoint.cs" t="Include" />
+            <e p="WeldJoint.cs" t="Include" />
+            <e p="WheelJoint.cs" t="Include" />
+          </e>
+          <e p="Solver" t="Include">
+            <e p="ContactPositionConstraint.cs" t="Include" />
+            <e p="ContactSolver.cs" t="Include" />
+            <e p="ContactVelocityConstraint.cs" t="Include" />
+            <e p="Island.cs" t="Include" />
+            <e p="Position.cs" t="Include" />
+            <e p="PositionSolverManifold.cs" t="Include" />
+            <e p="SolverData.cs" t="Include" />
+            <e p="Velocity.cs" t="Include" />
+            <e p="VelocityConstraintPoint.cs" t="Include" />
+          </e>
+          <e p="TimeStep.cs" t="Include" />
+          <e p="World.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="Buoyancy" t="Include">
+              <e p="BuoyancyController.cs" t="Include" />
+            </e>
+            <e p="ControllerBase" t="Include">
+              <e p="Controller.cs" t="Include" />
+              <e p="ControllerFilter.cs" t="Include" />
+              <e p="ControllerType.cs" t="Include" />
+            </e>
+            <e p="Gravity" t="Include">
+              <e p="GravityController.cs" t="Include" />
+              <e p="GravityType.cs" t="Include" />
+            </e>
+            <e p="Velocity" t="Include">
+              <e p="VelocityLimitController.cs" t="Include" />
+            </e>
+            <e p="Wind" t="Include">
+              <e p="AbstractForceController.cs" t="Include" />
+              <e p="SimpleWindForce.cs" t="Include" />
+            </e>
+          </e>
+          <e p="DebugView" t="Include">
+            <e p="DebugViewBase.cs" t="Include" />
+            <e p="DebugViewFlags.cs" t="Include" />
+          </e>
+          <e p="PhysicsLogics" t="Include">
+            <e p="Explosion" t="Include">
+              <e p="RayDataComparer.cs" t="Include" />
+              <e p="RealExplosion.cs" t="Include" />
+              <e p="SimpleExplosion.cs" t="Include" />
+            </e>
+            <e p="PhysicsLogicBase" t="Include">
+              <e p="FilterData.cs" t="Include" />
+              <e p="PhysicsLogic.cs" t="Include" />
+              <e p="PhysicsLogicFilter.cs" t="Include" />
+              <e p="PhysicsLogicType.cs" t="Include" />
+              <e p="ShapeData.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Factories" t="Include">
+          <e p="BodyFactory.cs" t="Include" />
+          <e p="FixtureFactory.cs" t="Include" />
+          <e p="JointFactory.cs" t="Include" />
+        </e>
+        <e p="Primitives" t="Include">
+          <e p="Curve.cs" t="Include" />
+          <e p="CurveContinuity.cs" t="Include" />
+          <e p="CurveKey.cs" t="Include" />
+          <e p="CurveKeyCollection.cs" t="Include" />
+          <e p="CurveLoopType.cs" t="Include" />
+          <e p="CurveTangent.cs" t="Include" />
+          <e p="MathHelper.cs" t="Include" />
+          <e p="Matrix.cs" t="Include" />
+          <e p="Vector2.cs" t="Include" />
+          <e p="Vector3.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Settings.cs" t="Include" />
+        <e p="Shared" t="Include">
+          <e p="AABB.cs" t="Include" />
+          <e p="Benchmark.cs" t="Include" />
+          <e p="BenchmarkRun.cs" t="Include" />
+          <e p="Contracts" t="Include">
+            <e p="Contract.cs" t="Include" />
+            <e p="EnsuresException.cs" t="Include" />
+            <e p="RequiredException.cs" t="Include" />
+          </e>
+          <e p="Graph.cs" t="Include" />
+          <e p="GraphNode.cs" t="Include" />
+          <e p="Mat22.cs" t="Include" />
+          <e p="Mat33.cs" t="Include" />
+          <e p="Optimization" t="Include">
+            <e p="FixedArray2.cs" t="Include" />
+            <e p="FixedArray3.cs" t="Include" />
+            <e p="IPoolable.cs" t="Include" />
+          </e>
+          <e p="PolygonError.cs" t="Include" />
+          <e p="Pool.cs" t="Include" />
+          <e p="Rot.cs" t="Include" />
+          <e p="Transform.cs" t="Include" />
+          <e p="Vertices.cs" t="Include" />
+        </e>
+        <e p="Templates" t="Include">
+          <e p="BodyTemplate.cs" t="Include" />
+          <e p="FixtureTemplate.cs" t="Include" />
+          <e p="IDefaults.cs" t="Include" />
+          <e p="Joints" t="Include">
+            <e p="DistanceJointTemplate.cs" t="Include" />
+            <e p="FrictionJointTemplate.cs" t="Include" />
+            <e p="GearJointTemplate.cs" t="Include" />
+            <e p="JointTemplate.cs" t="Include" />
+            <e p="MotorJointTemplate.cs" t="Include" />
+            <e p="MouseJointTemplate.cs" t="Include" />
+            <e p="PrismaticJointTemplate.cs" t="Include" />
+            <e p="PulleyJointTemplate.cs" t="Include" />
+            <e p="RevoluteJointTemplate.cs" t="Include" />
+            <e p="RopeJointTemplate.cs" t="Include" />
+            <e p="WeldJointTemplate.cs" t="Include" />
+            <e p="WheelJointTemplate.cs" t="Include" />
+          </e>
+          <e p="Shapes" t="Include">
+            <e p="ChainShapeTemplate.cs" t="Include" />
+            <e p="CircleShapeTemplate.cs" t="Include" />
+            <e p="EdgeShapeTemplate.cs" t="Include" />
+            <e p="PolygonShapeTemplate.cs" t="Include" />
+            <e p="ShapeTemplate.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Tools" t="Include">
+          <e p="ConvexHull" t="Include">
+            <e p="ChainHull" t="Include">
+              <e p="ChainHull.cs" t="Include" />
+            </e>
+            <e p="GiftWrap" t="Include">
+              <e p="GiftWrap.cs" t="Include" />
+            </e>
+            <e p="Melkman" t="Include">
+              <e p="Melkman.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Cutting" t="Include">
+            <e p="Simple" t="Include">
+              <e p="CuttingTools.cs" t="Include" />
+              <e p="PolyClipError.cs" t="Include" />
+              <e p="PolyClipType.cs" t="Include" />
+            </e>
+            <e p="YuPengClipper.cs" t="Include" />
+          </e>
+          <e p="PathGenerator" t="Include">
+            <e p="LinkFactory.cs" t="Include" />
+            <e p="Path.cs" t="Include" />
+            <e p="PathManager.cs" t="Include" />
+          </e>
+          <e p="PolygonManipulation" t="Include">
+            <e p="SimpleCombiner.cs" t="Include" />
+            <e p="SimplifyTools.cs" t="Include" />
+          </e>
+          <e p="TextureTools" t="Include">
+            <e p="MarchingSquares.cs" t="Include" />
+            <e p="Terrain.cs" t="Include" />
+            <e p="TextureConverter.cs" t="Include" />
+            <e p="VerticesDetectionType.cs" t="Include" />
+          </e>
+          <e p="Triangulation" t="Include">
+            <e p="Bayazit" t="Include">
+              <e p="BayazitDecomposer.cs" t="Include" />
+            </e>
+            <e p="Delaunay" t="Include">
+              <e p="CDTDecomposer.cs" t="Include" />
+              <e p="Delaunay" t="Include">
+                <e p="DelaunayTriangle.cs" t="Include" />
+                <e p="Sweep" t="Include">
+                  <e p="AdvancingFront.cs" t="Include" />
+                  <e p="AdvancingFrontNode.cs" t="Include" />
+                  <e p="DTSweep.cs" t="Include" />
+                  <e p="DTSweepConstraint.cs" t="Include" />
+                  <e p="DTSweepContext.cs" t="Include" />
+                  <e p="DTSweepPointComparator.cs" t="Include" />
+                  <e p="PointOnEdgeException.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Orientation.cs" t="Include" />
+              <e p="Polygon" t="Include">
+                <e p="Polygon.cs" t="Include" />
+                <e p="PolygonPoint.cs" t="Include" />
+                <e p="PolygonSet.cs" t="Include" />
+              </e>
+              <e p="Sets" t="Include">
+                <e p="ConstrainedPointSet.cs" t="Include" />
+                <e p="PointSet.cs" t="Include" />
+              </e>
+              <e p="Triangulatable.cs" t="Include" />
+              <e p="TriangulationConstraint.cs" t="Include" />
+              <e p="TriangulationContext.cs" t="Include" />
+              <e p="TriangulationMode.cs" t="Include" />
+              <e p="TriangulationPoint.cs" t="Include" />
+              <e p="TriangulationUtil.cs" t="Include" />
+              <e p="Util" t="Include">
+                <e p="PointGenerator.cs" t="Include" />
+                <e p="PolygonGenerator.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Earclip" t="Include">
+              <e p="EarclipDecomposer.cs" t="Include" />
+              <e p="Triangle.cs" t="Include" />
+            </e>
+            <e p="FlipCode" t="Include">
+              <e p="FlipcodeDecomposer.cs" t="Include" />
+            </e>
+            <e p="Seidel" t="Include">
+              <e p="Edge.cs" t="Include" />
+              <e p="MonotoneMountain.cs" t="Include" />
+              <e p="Node.cs" t="Include" />
+              <e p="Point.cs" t="Include" />
+              <e p="QueryGraph.cs" t="Include" />
+              <e p="SeidelDecomposer.cs" t="Include" />
+              <e p="Sink.cs" t="Include" />
+              <e p="Trapezoid.cs" t="Include" />
+              <e p="TrapezoidalMap.cs" t="Include" />
+              <e p="Triangulator.cs" t="Include" />
+              <e p="XNode.cs" t="Include" />
+              <e p="YNode.cs" t="Include" />
+            </e>
+            <e p="TriangulationBase" t="Include">
+              <e p="Triangulate.cs" t="Include" />
+              <e p="TriangulationAlgorithm.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Utilities" t="Include">
+          <e p="ConvertUnits.cs" t="Include" />
+          <e p="LineUtils.cs" t="Include" />
+          <e p="MathUtils.cs" t="Include" />
+          <e p="PolygonUtils.cs" t="Include" />
+        </e>
+        <e p="VelcroPhysics.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="VelcroPhysics.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="VelcroPhysics.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
