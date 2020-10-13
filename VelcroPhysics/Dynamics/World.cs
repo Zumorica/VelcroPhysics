@@ -873,12 +873,14 @@ namespace VelcroPhysics.Dynamics
                 // Commit fixture proxy movements to the broad-phase so that new contacts are created.
                 // Also, some contacts can be destroyed.
                 ContactManager.FindNewContacts();
-
+                
+#pragma warning disable 162
                 if (Settings.EnableSubStepping)
                 {
                     _stepComplete = false;
                     break;
                 }
+#pragma warning restore 162
             }
         }
 

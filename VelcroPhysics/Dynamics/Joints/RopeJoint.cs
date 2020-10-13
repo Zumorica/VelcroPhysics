@@ -198,6 +198,9 @@ namespace VelcroPhysics.Dynamics.Joints
 
             _mass = invMass != 0.0f ? 1.0f / invMass : 0.0f;
 
+#pragma warning disable 162
+            
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
             if (Settings.EnableWarmstarting)
             {
                 // Scale the impulse to support a variable time step.
@@ -213,6 +216,7 @@ namespace VelcroPhysics.Dynamics.Joints
             {
                 _impulse = 0.0f;
             }
+#pragma warning restore 162
 
             data.Velocities[_indexA].V = vA;
             data.Velocities[_indexA].W = wA;

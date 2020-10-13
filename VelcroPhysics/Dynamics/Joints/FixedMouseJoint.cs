@@ -217,6 +217,8 @@ namespace VelcroPhysics.Dynamics.Joints
             // Cheat with some damping
             wA *= 0.98f;
 
+#pragma warning disable 162
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
             if (Settings.EnableWarmstarting)
             {
                 _impulse *= data.Step.dtRatio;
@@ -227,6 +229,7 @@ namespace VelcroPhysics.Dynamics.Joints
             {
                 _impulse = Vector2.Zero;
             }
+#pragma warning restore 162
 
             data.Velocities[_indexA].V = vA;
             data.Velocities[_indexA].W = wA;

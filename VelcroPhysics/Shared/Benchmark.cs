@@ -16,6 +16,8 @@ namespace VelcroPhysics.Shared
 
         public static void RecordResults(string area, long results)
         {
+#pragma warning disable 162
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
             if (!Settings.EnableDiagnostics)
                 return;
 
@@ -27,6 +29,7 @@ namespace VelcroPhysics.Shared
 
         public static long ResetResults(string area)
         {
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
             if (!Settings.EnableDiagnostics)
                 return 0;
 
@@ -37,8 +40,10 @@ namespace VelcroPhysics.Shared
 
         public static long GetResults(string area)
         {
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
             if (!Settings.EnableDiagnostics)
                 return 0;
+#pragma warning restore 162
 
             return _results.TryGetValue(area, out long value) ? value : 0;
         }

@@ -40,14 +40,14 @@ namespace VelcroPhysics
         /// NOTE: If you are using a debug view that shows performance counters,
         /// you might want to enable this.
         /// </summary>
-        public const bool EnableDiagnostics = true;
+        public const bool EnableDiagnostics = false;
 
         /// <summary>
         /// Set this to true to skip sanity checks in the engine. This will speed up the
         /// tools by removing the overhead of the checks, but you will need to handle checks
         /// yourself where it is needed.
         /// </summary>
-        public const bool SkipSanityChecks = false;
+        public const bool SkipSanityChecks = true;
 
         /// <summary>
         /// Maximum number of sub-steps per contact in continuous physics simulation.

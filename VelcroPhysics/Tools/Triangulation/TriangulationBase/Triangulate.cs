@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using VelcroPhysics.Shared;
 using VelcroPhysics.Tools.ConvexHull.GiftWrap;
@@ -18,11 +19,13 @@ namespace VelcroPhysics.Tools.Triangulation.TriangulationBase
             if (vertices.Count <= 3)
                 return new List<Vertices> { vertices };
 
-            List<Vertices> results;
+            List<Vertices> results = null;
 
             switch (algorithm)
             {
                 case TriangulationAlgorithm.Earclip:
+#pragma warning disable 162
+                    // ReSharper disable three ConditionIsAlwaysTrueOrFalse
                     if (Settings.SkipSanityChecks)
                         Debug.Assert(!vertices.IsCounterClockWise(), "The Ear-clip algorithm expects the polygon to be clockwise.");
                     else
@@ -55,6 +58,7 @@ namespace VelcroPhysics.Tools.Triangulation.TriangulationBase
                 case TriangulationAlgorithm.Flipcode:
                     if (Settings.SkipSanityChecks)
                         Debug.Assert(vertices.IsCounterClockWise(), "The polygon is not counter clockwise. This is needed for Bayazit to work correctly.");
+#pragma warning restore 162
                     else
                     {
                         if (!vertices.IsCounterClockWise())

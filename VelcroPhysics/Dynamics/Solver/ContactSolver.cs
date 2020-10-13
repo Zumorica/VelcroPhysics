@@ -122,6 +122,8 @@ namespace VelcroPhysics.Dynamics.Solver
                     ManifoldPoint cp = manifold.Points[j];
                     VelocityConstraintPoint vcp = vc.Points[j];
 
+#pragma warning disable 162
+                    // ReSharper disable once ConditionIsAlwaysTrueOrFalse
                     if (Settings.EnableWarmstarting)
                     {
                         vcp.NormalImpulse = _step.dtRatio * cp.NormalImpulse;
@@ -132,6 +134,7 @@ namespace VelcroPhysics.Dynamics.Solver
                         vcp.NormalImpulse = 0.0f;
                         vcp.TangentImpulse = 0.0f;
                     }
+#pragma warning restore 162
 
                     vcp.rA = Vector2.Zero;
                     vcp.rB = Vector2.Zero;
@@ -432,8 +435,6 @@ namespace VelcroPhysics.Dynamics.Solver
                     Vector2 b = Vector2.Zero;
                     b.X = vn1 - cp1.VelocityBias;
                     b.Y = vn2 - cp2.VelocityBias;
-
-                    const float k_errorTol = 1e-3f;
 
                     // Compute b'
                     b -= MathUtils.Mul(ref vc.K, a);

@@ -38,7 +38,9 @@ namespace VelcroPhysics.Tools.Triangulation.Delaunay
     {
         public readonly List<TriangulationPoint> Points = new List<TriangulationPoint>(200);
         public readonly List<DelaunayTriangle> Triangles = new List<DelaunayTriangle>();
+#pragma warning disable 414
         private int _stepTime = -1;
+#pragma warning restore 414
 
         public TriangulationContext()
         {

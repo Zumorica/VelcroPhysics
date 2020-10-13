@@ -527,6 +527,8 @@ namespace VelcroPhysics.Dynamics.Joints
                 MotorImpulse = 0.0f;
             }
 
+#pragma warning disable 162
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
             if (Settings.EnableWarmstarting)
             {
                 // Account for variable time step.
@@ -548,6 +550,7 @@ namespace VelcroPhysics.Dynamics.Joints
                 _impulse = Vector3.Zero;
                 MotorImpulse = 0.0f;
             }
+#pragma warning restore 162
 
             data.Velocities[_indexA].V = vA;
             data.Velocities[_indexA].W = wA;

@@ -316,6 +316,8 @@ namespace VelcroPhysics.Dynamics.Joints
             // Compute effective mass.
             _mass = _mass > 0.0f ? 1.0f / _mass : 0.0f;
 
+#pragma warning disable 162
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
             if (Settings.EnableWarmstarting)
             {
                 vA += (_mA * _impulse) * _JvAC;
@@ -331,6 +333,7 @@ namespace VelcroPhysics.Dynamics.Joints
             {
                 _impulse = 0.0f;
             }
+#pragma warning restore 162
 
             data.Velocities[_indexA].V = vA;
             data.Velocities[_indexA].W = wA;

@@ -235,6 +235,8 @@ namespace VelcroPhysics.Dynamics.Joints
             _linearError = cB + _rB - cA - _rA - MathUtils.Mul(qA, _linearOffset);
             _angularError = aB - aA - _angularOffset;
 
+#pragma warning disable 162
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
             if (Settings.EnableWarmstarting)
             {
                 // Scale impulses to support a variable time step.
@@ -253,6 +255,7 @@ namespace VelcroPhysics.Dynamics.Joints
                 _linearImpulse = Vector2.Zero;
                 _angularImpulse = 0.0f;
             }
+#pragma warning restore 162
 
             data.Velocities[_indexA].V = vA;
             data.Velocities[_indexA].W = wA;
